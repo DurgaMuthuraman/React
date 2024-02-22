@@ -1,0 +1,19 @@
+/* Products.css */
+
+.products-container {
+  max-width: 800px; /* Set a maximum width for the container */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.product-card {
+  margin-bottom: 20px;
+}
+
+/* Add media queries for responsiveness */
+@media only screen and (max-width: 600px) {
+  .products-container {
+    max-width: 100%; /* Full width for smaller screens */
+  }
+
+  /* Add additional styles for smaller screens if needed */
+}
